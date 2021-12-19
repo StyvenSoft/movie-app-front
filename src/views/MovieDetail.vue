@@ -1,5 +1,5 @@
 <template>
-  <div class="movie-detail">Datail movie</div>
+  <div class="movie-detail">Datail movie: {{ $route.params.id }}</div>
 </template>
 
 <script>
